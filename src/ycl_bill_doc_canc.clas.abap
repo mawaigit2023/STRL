@@ -34,7 +34,7 @@ CLASS YCL_BILL_DOC_CANC IMPLEMENTATION.
     FROM I_BillingDocument
     WHERE AccountingDocument = @im_docnum AND
           FiscalYear         = @im_year
-    INTO @DATA(ls_bil_boc).
+    INTO @DATA(ls_bil_boc)..
 
     IF sy-subrc EQ 0.
 
