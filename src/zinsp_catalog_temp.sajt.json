@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Catalog template",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "ZINSP_CATALOG_ENTRY"
+  },
+  "parameters": {
+    "singleValueParameters": [
+      {
+        "name": "INSPLOT",
+        "value": "20240613"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for Bank Payment'
+define service Z_SD_BANK_PAYMENT {
+  expose ZI_BANK_PAYMENT;
+}

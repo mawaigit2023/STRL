@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for packing std'
+define service Z_SD_PACK_STD {
+  expose ZE_PACK_STD;
+}

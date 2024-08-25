@@ -1,0 +1,16 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Catalog entry",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "className": "YCL_TRIGGER_EMAIL_INSPLOT"
+  },
+  "parameters": [
+    {
+      "name": "INSPLOT"
+    }
+  ]
+}

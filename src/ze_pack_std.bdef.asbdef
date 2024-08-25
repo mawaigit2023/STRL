@@ -1,0 +1,14 @@
+managed implementation in class zbp_e_pack_std unique;
+strict ( 2 );
+
+define behavior for ZE_PACK_STD //alias <alias_name>
+persistent table zmm_pack_std
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  field ( readonly:update ) Supplier, Material;
+  create;
+  update;
+  delete;
+}

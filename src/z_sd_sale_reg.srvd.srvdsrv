@@ -1,0 +1,4 @@
+@EndUserText.label: 'Sale Reg'
+define service Z_SD_SALE_REG {
+  expose ZI_SALE_REG;
+}
